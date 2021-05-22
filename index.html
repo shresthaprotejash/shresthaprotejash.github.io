@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="assets/css/styles.css" />
+
+    <!-- =====BOX ICONS===== -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Portfolio website complete</title>
+  </head>
+  <body>
+    <!--===== HEADER =====-->
+    <header class="l-header">
+      <nav class="nav bd-grid">
+        <div>
+          <a href="#" class="nav__logo">Tejash Shrestha</a>
+        </div>
+
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="#home" class="nav__link active">Home</a>
+            </li>
+            <li class="nav__item">
+              <a href="#about" class="nav__link">About</a>
+            </li>
+            <li class="nav__item">
+              <a href="#skills" class="nav__link">Skills</a>
+            </li>
+            <li class="nav__item">
+              <a href="#work" class="nav__link">Work</a>
+            </li>
+            <li class="nav__item">
+              <a href="#contact" class="nav__link">Contact</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="nav__toggle" id="nav-toggle">
+          <i class="bx bx-menu"></i>
+        </div>
+      </nav>
+    </header>
+
+    <main class="l-main">
+      <!--===== HOME =====-->
+      <section class="home bd-grid" id="home">
+        <div class="home__data">
+          <h1 class="home__title">
+            Hi,<br />I'am <br /><span class="home__title-color"
+              >Tejash Shrestha</span
+            ><br />
+            Software Engineer
+          </h1>
+
+          <a
+            href="mailto:shrestha.tejash@gmail.com?subject=Website Mail:"
+            class="button"
+            >Contact</a
+          >
+        </div>
+
+        <div class="home__social">
+          <span class="handwriting">
+            I also do photography as an hobby. Follow me
+          </span>
+          <img src="./assets/img/arrow.png" class="arrow" />
+          <a
+            href="https://www.linkedin.com/in/tejash-shrestha-a170a011b/"
+            target="_blank"
+            class="home__social-icon"
+            ><i class="bx bxl-linkedin"></i
+          ></a>
+          <a
+            href="https://www.instagram.com/tejashshresthalens/"
+            target="_blank"
+            class="home__social-icon"
+            ><i class="bx bxl-instagram-alt"></i
+          ></a>
+          <a
+            href="https://github.com/shresthaprotejash"
+            target="_blank"
+            class="home__social-icon"
+            ><i class="bx bxl-github"></i
+          ></a>
+        </div>
+
+        <div class="home__img">
+          <img src="assets/img/profile.png" alt="" />
+        </div>
+      </section>
+
+      <!--===== ABOUT =====-->
+      <section class="about section" id="about">
+        <h2 class="section-title">About</h2>
+
+        <div class="about__container bd-grid">
+          <div class="about__img">
+            <img src="assets/img/about.jpg" alt="" />
+          </div>
+          <div>
+            <h2 class="about__subtitle">I'am Tejash</h2>
+            <p class="about__text">
+              I enjoy creating things that live on the internet, whether that be
+              websites, applications, or anything in between. My goal is to
+              always build products that provide pixel-perfect, performant
+              experiences.
+              <br /><br />
+              Currently, I work with the product development team at
+              <b>Loyalytics</b>
+              where I work on a wide variety of interesting and meaningful
+              projects on a daily basis.
+              <br /><br />
+              Soon I would be joining <b>University of Calgary</b> as Research
+              Student for Masters in Computer Science.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!--===== SKILLS =====-->
+      <section class="skills section" id="skills">
+        <h2 class="section-title">Skills</h2>
+
+        <div class="skills__container bd-grid">
+          <div>
+            <h2 class="skills__subtitle">Profesional Skills</h2>
+            <p class="skills__text">
+              Since beginning of my journey as a Software Engineer, I have been
+              involved in overall part of the development.
+              <br />
+              <br />
+              My expertise is font-end, back-end development with enough
+              experience in MS Azure cloud and its services, building customer
+              centric small and medium web apps.
+              <br />
+              <br />
+              I have full-stack developer experiences with popular language and
+              framework like (Angular, Node JS, Python, Serverless, Cosmos DB
+              and others)
+            </p>
+          </div>
+
+          <div>
+            <div class="skills__data">
+              <div class="skills__names">
+                <i class="bx bxl-angular skills__icon"></i>
+                <span class="skills__name">Front-end</span>
+              </div>
+              <div class="skills__bar skills__frontend"></div>
+              <div>
+                <span class="skills__percentage">80%</span>
+              </div>
+            </div>
+            <div class="skills__data">
+              <div class="skills__names">
+                <i class="bx bxl-nodejs skills__icon"></i>
+                <span class="skills__name">Back-end</span>
+              </div>
+              <div class="skills__bar skills__backend"></div>
+              <div>
+                <span class="skills__percentage">85%</span>
+              </div>
+            </div>
+            <div class="skills__data">
+              <div class="skills__names">
+                <i class="bx bxs-cloud skills__icon"></i>
+                <span class="skills__name">Microsoft Azure Cloud</span>
+              </div>
+              <div class="skills__bar skills__cloud"></div>
+              <div>
+                <span class="skills__percentage">65%</span>
+              </div>
+            </div>
+            <div class="skills__data">
+              <div class="skills__names">
+                <i class="bx bxs-paint skills__icon"></i>
+                <span class="skills__name">UX</span>
+              </div>
+              <div class="skills__bar skills__ux"></div>
+              <div>
+                <span class="skills__percentage">75%</span>
+              </div>
+            </div>
+            <!-- <img src="assets/img/work3.jpg" alt="" class="skills__img" /> -->
+          </div>
+        </div>
+      </section>
+
+      <!--===== WORK =====-->
+      <section class="work section" id="work">
+        <h2 class="section-title">Work Experience</h2>
+
+        <div class="work__container bd-grid">
+          <div class="work__company">
+            <div class="work__company__title">
+              <h2>Full Stack Developer</h2>
+              <h1>@Loyalytics Consulting</h1>
+              <h4>April 2019 - Present</h4>
+            </div>
+            <div class="work__company__description">
+              <ul>
+                <li>Started as a developer in a 12 people startup.</li>
+                <li>
+                  Developed world-class omnichannel automated marketing CRM tool
+                  for retail using cutting edge technology such as Angular in
+                  Frontend, and NodeJS as backend.
+                </li>
+                <li>
+                  Made an improvement of over 200% in Serverless architecture
+                  which made it possible in handling 1 million requests over 10
+                  minutes of time.
+                </li>
+                <li>
+                  Mentoring and guiding new developers, and leading projects
+                  inside the team.
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="work__company">
+            <div class="work__company__title">
+              <h2>Project Engineer</h2>
+              <h1>@Wipro Limited</h1>
+              <h4>May 2018 - March 2019</h4>
+            </div>
+            <div class="work__company__description">
+              <ul>
+                <li>Worked collaboratively in a team environment</li>
+                <li>
+                  Resolved all client requests professionally and in a timely
+                  manner
+                </li>
+                <li>
+                  Contribution to the development of small improvement features
+                  in the client application.
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="work__company">
+            <div class="work__company__title">
+              <h2>Software Developer Intern</h2>
+              <h1>@Sakhatech Information System</h1>
+              <h4>June 2017 - August 2017</h4>
+            </div>
+            <div class="work__company__description">
+              <ul>
+                <li>
+                  Assisted in the development of a web app project for
+                  monitoring the student's academic activity in school.
+                </li>
+                <li>
+                  Analyze the requirement of the project and develop the
+                  frontend to perform CRUD operations for teachers. Also,
+                  backend code to compute and store all the data in the
+                  database.
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--===== CONTACT =====-->
+      <section class="contact section" id="contact">
+        <h2 class="section-title">Contact</h2>
+
+        <div class="contact__container bd-grid">
+          <form action="" class="contact__form">
+            <input type="text" placeholder="Name" class="contact__input" />
+            <input type="mail" placeholder="Email" class="contact__input" />
+            <textarea
+              name=""
+              id=""
+              cols="0"
+              rows="10"
+              class="contact__input"
+            ></textarea>
+            <input
+              type="button"
+              value="Send Message"
+              class="contact__button button"
+            />
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <!--===== FOOTER =====-->
+    <footer class="footer">
+      <!-- <p class="footer__title">Tejash Shrestha</p> -->
+      <div class="footer__social">
+        <a
+          href="https://www.facebook.com/tejash.shrestha"
+          target="_blank"
+          class="footer__icon"
+          ><i class="bx bxl-facebook"></i
+        ></a>
+        <a
+          href="https://www.instagram.com/shresthatejash/"
+          target="_blank"
+          class="footer__icon"
+          ><i class="bx bxl-instagram"></i
+        ></a>
+        <!-- <a href="#" class="footer__icon"><i class="bx bxl-twitter"></i></a> -->
+      </div>
+      <p>&#169; 2022 copyright all right reserved</p>
+    </footer>
+
+    <!--===== SCROLL REVEAL =====-->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!--===== MAIN JS =====-->
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
