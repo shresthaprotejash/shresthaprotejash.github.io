@@ -515,13 +515,11 @@ img {
     margin-bottom: 0;
     margin-right: var(--mb-4);
   }
-  /* .home__img {
-    width: 457px;
-    bottom: 15%;
-  } */
+
   .home__img {
     width: 45%;
     top: 0;
+    height: 50%;
     margin-right: -2rem;
   }
 
