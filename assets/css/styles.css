@@ -407,7 +407,7 @@ img {
 
   .arrow {
     top: -2.5rem;
-    left: 7rem;
+    left: calc(50% - 4rem);
   }
 
   .work__company {
@@ -515,9 +515,14 @@ img {
     margin-bottom: 0;
     margin-right: var(--mb-4);
   }
-  .home__img {
+  /* .home__img {
     width: 457px;
     bottom: 15%;
+  } */
+  .home__img {
+    width: 45%;
+    top: 0;
+    margin-right: -2rem;
   }
 
   .about__container,
@@ -548,6 +553,15 @@ img {
     margin-right: auto;
   }
   .home__img {
-    right: 10%;
+    right: 6%;
+    width: 457px;
+    bottom: 10%;
+    top: auto;
+  }
+}
+
+@media screen and (min-width: 1300px) {
+  .home__img {
+    right: 15%;
   }
 }
